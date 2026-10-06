@@ -1,0 +1,104 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 15px;
+}
+
+.bi-list{
+    font-size: 25px;
+}
+
+
+.bi-youtube{
+    font-size: 25px;
+    color: red;
+}
+
+input{
+    width: 450px;
+    padding: 10px;
+    background-color: gainsboro;
+    border:none;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+
+.bi-search{
+    border:none;
+    width: 50px;
+    margin-left: -10px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    padding: 10px;
+}
+
+.bi-mic{
+    border: 1px solid gainsboro;
+    border-radius: 40px;
+    font-size: 16px;
+    padding: 8px;
+}
+
+.bi-plus{
+    font-size: 25px;
+    border: 1px solid gainsboro;
+    border-radius: 15px;
+}
+
+.bi-bell{
+    background-color: white;
+    font-size: 25px;
+    border: none;
+    border-radius: 15px;
+}
+
+.bi-person-circle{
+    background-color: white;
+    font-size: 25px;
+    border: none;
+    border-radius: 15px;
+}
+
+ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    border-bottom: 1px solid gray;
+    padding-bottom: 10px;
+    margin-bottom: 8px;
+}
+
+li{
+    padding: 10px;
+}
+
+main{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+}
+
+aside{
+    width:13%
+}
+
+container{
+    width: 87%;
+}
+
+.videos{
+    display:flex;
+    justify-content: space-between;
+    font-size: 10px;
+    width: 345px;
+}
+
+.valign{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+td{
+    padding: 20px;
+}
